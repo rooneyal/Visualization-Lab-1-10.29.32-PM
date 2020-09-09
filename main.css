@@ -1,51 +1,74 @@
-.Button li
-{
-  margin: 0px 0px 0px 0px;
-  padding: 0px 0px 0px 0px;
-  display: inline-block;
-  text-align: left;
-  margin-top: 30px;
-  color: white;
-  background-color: maroon;
-  font-size: 30px;
-  text-transform: uppercase;
+#Header {
+  color: maroon;
+  padding: 5px;
+  margin: 0px;
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  text-shadow: -1px 0 #D4AF37, 0 1px #D4AF37, 1px 0 #D4AF37, 0 -1px #D4AF37
 }
 
-.Button a
-{
+a {
   color: white;
   text-decoration: none;
-  padding: 5px 20px;
-  font-family: "Roboto", sans-serif;
-  font-size: 15px;
+  font-size: 18px;
+}
+
+.Button {
+  list-style-type: none;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  text-decoration: none;
+}
+
+.Button li {
+  padding: 5px 10px;
+  margin: 2px;
+  background-color: maroon;
+  color: white;
+  text-align: left;
+  display: inline-block;
+}
+
+.Button li :hover {
+  background-color: #D4AF37;
+}
+
+.Button input[type=text] {
+ color: grey;
+ font-size: 18px;
+ padding: 5px 10px;
+ padding-right: 150px;
+ margin: 2px;
+ background-color: lightgrey;
+ float: right;
+ display: inline-block;
 }
 
 .Photo {
-    float: right;
+  padding: 5px;
+  margin: 5px;
+  float: right;
+  margin-top: 30px;
 }
 
-#Header {
-  margin: 0px 0px 0px 0px;
-  padding: 0px 0px 0px 0px;
-  color: maroon;
-  padding: 10px;
-  text-align: left;
-  margin-top: 15px;
-  margin-left: 5px;
-  font-size: 30;
-}
 
 #Generate {
+  padding: 15px;
+  margin-top: 30px;
+  margin-left: 100px;
+  font-size: 18px;
+  color: solid black;
+  background-color: lightgoldenrodyellow;
+  text-decoration: none;
+  display: block;
+  float: left;
+  clear: right;
 }
 
-.Search {
-  float: right;
-  margin: 0px 0px 0px 0px;
-  padding: 0px 0px 0px 0px;
-  display: inline-block;
-  margin-top: 30px;
-  color: white;
-  background-color: maroon;
-  font-size: 15px;
-  text-transform: uppercase;
+#content {
+  padding: 5px;
+  margin: 5px;
+  font-size: 16px;
+  color: solid black;
+  margin-top: 100px;
 }
