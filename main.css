@@ -1,0 +1,51 @@
+.Button li
+{
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  display: inline-block;
+  text-align: left;
+  margin-top: 30px;
+  color: white;
+  background-color: maroon;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.Button a
+{
+  color: white;
+  text-decoration: none;
+  padding: 5px 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+}
+
+.Photo {
+    float: right;
+}
+
+#Header {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  color: maroon;
+  padding: 10px;
+  text-align: left;
+  margin-top: 15px;
+  margin-left: 5px;
+  font-size: 30;
+}
+
+#Generate {
+}
+
+.Search {
+  float: right;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  display: inline-block;
+  margin-top: 30px;
+  color: white;
+  background-color: maroon;
+  font-size: 15px;
+  text-transform: uppercase;
+}
