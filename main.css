@@ -73,3 +73,8 @@ a {
   color: solid black;
   margin-top: 100px;
 }
+
+.Photo_Credit {
+float: right;
+margin-right: 100px;
+}
